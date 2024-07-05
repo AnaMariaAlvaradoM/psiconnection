@@ -83,7 +83,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </div>
-   </PayPalScriptProvider>
+  </PayPalScriptProvider>
   );
 }
 export default App;

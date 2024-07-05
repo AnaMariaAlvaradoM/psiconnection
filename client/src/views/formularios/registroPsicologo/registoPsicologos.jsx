@@ -149,7 +149,7 @@ const RegistroPsicologo = () => {
     <div className="containerFormPsico">
       <div className="registro-formPsico">
         <h2>¡Regístrate como Psicólogo!</h2>
-        <Form onSubmit={handleSubmit(onSubmit)} noValidate className="row">
+        <form onSubmit={handleSubmit(onSubmit)} noValidate className="row">
           <div className="form-columnPsico col-md-6">
             {/* //* Nombre */}
             <div className="form-groupRegPsico">
@@ -580,7 +580,7 @@ const RegistroPsicologo = () => {
           autoClose={3000}
           style={{ zIndex: 5000 }} // Ajusta el valor según tus necesidades
         />
-        </Form>
+        </form>
       </div>
     </div>
   );
